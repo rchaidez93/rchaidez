@@ -76,11 +76,17 @@ const ProfilePage = (props) => {
                                     </Grid>
                                     <Grid item xs={12} sm={12} md={10}>
                                         {projects.map(proj => (
-                                            <Typography>
-                                                <Link href={proj.link} color="inherit">
-                                                    {proj.name}
-                                                </Link>
-                                            </Typography>
+                                            <div>
+                                                <ul>
+                                                    <li>
+                                                    <Typography>
+                                                        <Link href={proj.link} color="inherit">
+                                                            {proj.name}
+                                                        </Link>
+                                                    </Typography>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         ))}
                                     </Grid>
                                 </Grid>
