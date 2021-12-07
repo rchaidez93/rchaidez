@@ -52,7 +52,7 @@ const ProfilePage = (props) => {
                                         Richard Chaidez    
                                     </Typography>
                                     <Typography align="center" variant="h6">
-                                        Junior Software Developer
+                                        Senior Software Developer
                                     </Typography>
                                 </div>
                             </div>
