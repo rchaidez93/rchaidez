@@ -97,7 +97,7 @@ const ProfilePage = (props) => {
                                         <Typography variant="h6">Experience</Typography>
                                     </Grid>
                                     <Grid item xs={12} sm={12} md={10}>
-                                        <Typography>Junior Software Developer at LB Networks, Chesterfield, MO</Typography>
+                                        <Typography>Senior Software Developer at LB Networks, Chesterfield, MO</Typography>
                                         <Typography variant="caption">Febuary 2017 - Present</Typography>
                                         <div>
                                             <ul>
